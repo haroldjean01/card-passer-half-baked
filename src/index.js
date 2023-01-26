@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GameContext from './context/GameContext.js';
+import { GameProvider } from './context/GameContext.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
