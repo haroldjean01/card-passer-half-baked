@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
+import { createContext } from 'react';
 
-export default function GameContext() {
-  return <div>GameContext</div>;
-}
+const GameContext = createContext();
+
+const GameProvider = ({ children }) => {
+  const [selectedCard, setSelectedCard] = useState();
+};
+
+export { GameContext, GameProvider };

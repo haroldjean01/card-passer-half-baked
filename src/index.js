@@ -8,9 +8,9 @@ import GameContext from './context/GameContext.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GameContext>
+    <GameProvider>
       <App />
-    </GameContext>
+    </GameProvider>
   </React.StrictMode>
 );
 
